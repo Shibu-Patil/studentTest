@@ -22,6 +22,11 @@ const routers=createBrowserRouter([
             }
         ]
     }
-])
+],
+  {
+    basename: "/studentTest"   
+  }
+
+)
 
 export default routers
